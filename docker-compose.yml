@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  union_telegram_bot:
+    build: .
+    restart: always
+    ports:
+      - "80:80"
